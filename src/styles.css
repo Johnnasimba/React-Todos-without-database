@@ -1,0 +1,54 @@
+html {
+    background-color: bisque;
+}
+.App h1{
+    text-align: center;
+}
+.content {
+    width: fit-content;
+}
+
+/* TABLE STYLES*/
+table{
+    border: 1px solid grey;
+    border-spacing: 0px;
+}
+tbody {
+    border: 4px solid grey;
+}
+td {
+    border: 1px solid grey;
+    width: 300px;
+    height: 10px;
+}
+form input{
+    width: 297px;
+    height: 20px;
+    border: 5px solide grey;
+}
+
+form input:hover{
+    background-color: khaki;
+}
+form button{
+    background-color: mediumturquoise;
+    text-align: center;
+    min-width: 200px;
+    min-height: 50px;
+    margin-top: 20px;
+    margin-left: 600px;
+}  
+form button:hover{
+    background-color: seagreen;
+    cursor: pointer;
+}
+.delete{
+    background-color: grey;
+    border: 1px solid white;
+    color: rgb(63, 84, 205);
+    font-weight: bold;
+}
+.delete:hover{
+    background-color: teal;
+    cursor: pointer;
+}
